@@ -163,3 +163,33 @@
         color: grey;
     }
 }
+#inp2{
+    margin-left: 40px;
+}
+
+.all{
+    border: 6px double black;
+    padding: 30px 50px;
+    margin-left: 30px;
+    ;
+    .accordion{
+        width: 100%;
+        height: 40px;
+        margin-bottom: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+        background-color: grey;
+    }
+    .accordion:focus{
+        outline: none;
+    }
+    .content{
+        display: none;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .active{
+        background-color: rgb(32, 32, 32);
+    }
+}
